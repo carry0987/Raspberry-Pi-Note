@@ -17,6 +17,6 @@
     * [Quick Reference](11.Crontab–Quick-Reference.md)
     * [Disable Cron Pam_Unix Session](12.Disable-Cron-Pam-Unix-Session.md)
 * [Locale]()
-    * [](13.Set-LC.md)
+    * [Set locale](13.Set-LC.md)
 * [HatH]()
     * [Run HatH On Portable External Hard Drive](Run-HatH-On-Portable-External-Hard-Drive.md)
