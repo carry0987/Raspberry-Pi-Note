@@ -1,3 +1,9 @@
+---
+description: >-
+  This is carry0987's Raspberry Pi Note, just storge some note or tips for
+  Raspberry Pi
+---
+
 # Raspberry Pi Note
 
 #### This is carry0987's Raspberry Pi Note, just storge some note or tips for Raspberry Pi
@@ -19,3 +25,6 @@ Recommend Tool : [**BerryBoot**](https://www.berryterminal.com/doku.php/berryboo
 | Website | Link |
 | :--- | :--- |
 | Github | [@carry0987](https://github.com/carry0987) |
+
+
+
