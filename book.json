@@ -2,7 +2,7 @@
   "title": "Raspberry Pi Note",
   "defaultDescription": "This is carry0987's Raspberry Pi Note, just storge some note or tips for Raspberry Pi",
   "plugins": [
-    "graph", "github"
+    "graph", "github", "-lunr", "-search", "search-plus", "page-toc-button"
   ],
   "pluginsConfig": {
     "graph": {
