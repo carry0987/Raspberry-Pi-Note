@@ -2,14 +2,9 @@
   "title": "Raspberry Pi Note",
   "defaultDescription": "This is carry0987's Raspberry Pi Note, just storge some note or tips for Raspberry Pi",
   "plugins": [
-    "graph", "github", "-lunr", "-search", "search-plus", "page-toc-button"
+    "github", "-lunr", "-search", "search-plus", "page-toc-button"
   ],
   "pluginsConfig": {
-    "graph": {
-      "baseURL": "https://carry0987.gitbooks.io/raspberry-pi-note/",
-      "defaultDescription": "This is carry0987's Raspberry Pi Note, just storge some note or tips for Raspberry Pi",
-      "defaultImage": "static/icon/logo.png"
-    },
     "github": {
       "url": "https://github.com/carry0987/Raspberry-Pi-Note"
     }
