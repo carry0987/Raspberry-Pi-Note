@@ -1,7 +1,12 @@
 ---
+title: Raspberry Pi Note
 description: >-
   This is carry0987's Raspberry Pi Note, just storge some note or tips for
   Raspberry Pi
+url: 'https://carry0987.gitbooks.io/raspberry-pi-note/'
+type: website
+image: >-
+  https://raw.githubusercontent.com/carry0987/Raspberry-Pi-Note/master/static/icon/logo.png
 ---
 
 # Raspberry Pi Note
@@ -25,6 +30,4 @@ Recommend Tool : [**BerryBoot**](https://www.berryterminal.com/doku.php/berryboo
 | Website | Link |
 | :--- | :--- |
 | Github | [@carry0987](https://github.com/carry0987) |
-
-
 
