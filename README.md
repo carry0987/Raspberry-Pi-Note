@@ -4,9 +4,9 @@
 
 Device : Raspberry Pi 3 Model B+
 
-OS : [**Raspbian-Stretch**](https://www.raspberrypi.org/downloads/raspbian/) \(Updated 2018-11-13\)
+OS : [**Raspbian-Stretch**](https://www.raspberrypi.org/downloads/raspbian/) \(Updated 2019-04-08\)
 
-Recommend Tool : [**BerryBoot**](https://www.berryterminal.com/doku.php/berryboot) \(Updated 2018-12-11\)
+Recommend Tool : [**BerryBoot**](https://www.berryterminal.com/doku.php/berryboot) \(Updated 2019-06-12\)
 
 ## Author : carry0987
 
