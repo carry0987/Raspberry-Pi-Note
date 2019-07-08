@@ -13,10 +13,10 @@ Recommend Tool : [**BerryBoot**](https://www.berryterminal.com/doku.php/berryboo
 | Project | Link |
 | :--- | :--- |
 | Gitbook | [Raspberry-Pi-Note](https://carry0987.gitbook.io/raspberry-pi-note/) |
+| Gitbook (Legacy) | [Raspberry-Pi-Note](https://carry0987.gitbooks.io/raspberry-pi-note/) |
 
 ## Contact
 
 | Website | Link |
 | :--- | :--- |
 | Github | [@carry0987](https://github.com/carry0987) |
-
