@@ -71,10 +71,10 @@ and use ```sudo chmod 777 /media/hd/hath``` to give it permission
 ![](static/image/hath/img_19.jpg)
 
 14. Use ```cd /media/hd/hath``` to go to ```hath``` folder,
-then use ```sudo wget https://repo.e-hentai.org/hath/HentaiAtHome_1.4.2.zip``` to download the H@H
+then use ```sudo wget https://repo.e-hentai.org/hath/HentaiAtHome_1.6.0.zip``` to download the H@H
 ![](static/image/hath/img_20.jpg)
 
-15. Use ```sudo unzip HentaiAtHome_1.4.2.zip``` to unzip H@H files
+15. Use ```sudo unzip HentaiAtHome_1.6.0.zip``` to unzip H@H files
 ![](static/image/hath/img_21.jpg)
 
 16. Use ```screen``` to start terminal in background
