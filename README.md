@@ -6,7 +6,7 @@ Device : Raspberry Pi 3 Model B+
 
 OS : [**Raspbian-Buster**](https://www.raspberrypi.org/downloads/raspbian/) \(Updated 2020-02-13\)
 
-Recommend Tool : [**BerryBoot**](https://www.berryterminal.com/doku.php/berryboot) \(Updated 2019-06-12\)
+Recommend Tool : [**BerryBoot**](https://www.berryterminal.com/doku.php/berryboot) \(Updated 2019-10-05\)
 
 ## Author : carry0987
 
