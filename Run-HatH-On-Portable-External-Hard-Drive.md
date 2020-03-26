@@ -26,9 +26,12 @@
 first **d** and then **w** to delete the partition table and disk on the hard disk
 ![](static/image/hath/img_5.jpg)
 
-5. Once again, use ```sudo fdisk /dev/sda``` to build disk partition,
-   first type **n**, next type **p**, and type **1**, then press enter twice, if it shows ```contains a ext4 signature``` message,
-   just type **Y** to countine, finally type **w** to build partition on the hard disk
+5. Once again, use ```sudo fdisk /dev/sda``` to build disk partition  
+   First type **`n`**  
+   Next type **`p`**  
+   And type **`1`**  
+   Then press enter twice, if it shows ```contains a ext4 signature``` message,  
+   just type **`Y`** to countine, finally type **`w`** to build partition on the hard disk
 ![](static/image/hath/img_6.jpg)
 
 6. Use ```sudo mkfs.ext4 /dev/sda1``` to format the partition into **Ext4**
@@ -70,31 +73,38 @@ and then use ```df -h``` to check if the external hard drive has been mounted
 and use ```sudo chmod 777 /media/hd/hath``` to give it permission
 ![](static/image/hath/img_19.jpg)
 
-14. Use ```cd /media/hd/hath``` to go to ```hath``` folder,
+## Set up the server
+You can use **`set-hath.sh`** to set up HentaiAtHome automatically
+```
+bash -c "$(curl https://raw.github.com/carry0987/Raspberry-Pi-Repo/master/HatH/set-hath.sh)"
+```
+Or just follow the tutorial below
+
+1. Use ```cd /media/hd/hath``` to go to ```hath``` folder,
 then use ```sudo wget https://repo.e-hentai.org/hath/HentaiAtHome_1.6.0.zip``` to download the H@H
 ![](static/image/hath/img_20.jpg)
 
-15. Use ```sudo unzip HentaiAtHome_1.6.0.zip``` to unzip H@H files
+2. Use ```sudo unzip HentaiAtHome_1.6.0.zip``` to unzip H@H files
 ![](static/image/hath/img_21.jpg)
 
-16. Use ```screen``` to start terminal in background
+3. Use ```screen``` to start terminal in background
 ![](static/image/hath/img_22.jpg)
     you will see this
 ![](static/image/hath/img_23.jpg)
     just press enter to start
 ![](static/image/hath/img_24.jpg)
 
-17. Use ```sudo java -jar HentaiAtHome.jar``` to start H@H
+4. Use ```sudo java -jar HentaiAtHome.jar``` to start H@H
 ![](static/image/hath/img_25.jpg)
 
-18. Enter your Client ID and Client Key
+5. Enter your Client ID and Client Key
 ![](static/image/hath/img_26.jpg)
 
-19. Running
+6. Running
 ![](static/image/hath/img_27.jpg)
 
-20. Now press **Ctrl + A** and then press **D** to detach H@H
+7. Now press **Ctrl + A** and then press **D** to detach H@H
 ![](static/image/hath/img_28.jpg)
 
-21. Finish
+8. Finish
 ![](static/image/hath/img_29.jpg)
