@@ -5,9 +5,9 @@
 
 ```sudo apt-get install vim```
 
-```sudo apt-get install openjdk-8-jdk```
+```sudo apt-get install openjdk-9-jdk```
 
-```sudo apt-get install openjdk-8-jre```
+```sudo apt-get install openjdk-9-jre```
 
 ## Auto Mount External Hard Drive
 1. Use ```df -h``` command to check the disk and free space on the system
