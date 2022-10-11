@@ -4,16 +4,16 @@
 
 Device : Raspberry Pi 3 Model B+
 
-OS : [**Raspi-OS-Buster**](https://www.raspberrypi.org/software/operating-systems/) \(Updated 2021-05-07\)
+OS : [**Pi-OS-Bullseye**](https://www.raspberrypi.com/software/operating-systems/) \(Updated 2021-05-07\)
 
 Recommend Tool : [**BerryBoot**](https://www.berryterminal.com/doku.php/berryboot) \(Updated 2021-07-01\)
 
 ## Author : carry0987
 
-| Project | Link |
-| :--- | :--- |
-| Gitbook | [Raspberry-Pi-Note](https://carry0987.gitbook.io/raspberry-pi-note/) |
-| Gitbook (Legacy) | [Raspberry-Pi-Note](https://carry0987.gitbooks.io/raspberry-pi-note/) |
+|     Project     |                                 Links                                 |
+|      :----      |                                 :----                                 |
+|   Github-Page   | [Raspberry-Pi-Note](https://carry0987.github.io/Raspberry-Pi-Note/)   |
+|     Gitbook     | [Raspberry-Pi-Note](https://carry0987.gitbook.io/raspberry-pi-note/)  |
 
 ## Contact
 
