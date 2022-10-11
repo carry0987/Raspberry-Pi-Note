@@ -4,7 +4,7 @@
 
 Device : Raspberry Pi 3 Model B+
 
-OS : [**Pi-OS-Bullseye**](https://www.raspberrypi.com/software/operating-systems/) \(Updated 2021-05-07\)
+OS : [**Pi-OS-Bullseye**](https://www.raspberrypi.com/software/operating-systems/) \(Updated 2022-09-22\)
 
 Recommend Tool : [**BerryBoot**](https://www.berryterminal.com/doku.php/berryboot) \(Updated 2021-07-01\)
 
