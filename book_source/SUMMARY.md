@@ -21,5 +21,7 @@
     * [Auto Login PTT](./article/14.Auto-Login-PTT.md)
 * [Locale]()
     * [Set locale](./article/15.Set-LC.md)
+* [Swap]()
+    * [Extend Swap](./article/Extend-Swap.md)
 * [HatH]()
     * [Run HatH On Portable External Hard Drive](./article/Run-HatH-On-Portable-External-Hard-Drive.md)
