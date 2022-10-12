@@ -30,3 +30,6 @@ sudo dphys-swapfile setup
 ```bash
 sudo dphys-swapfile swapon
 ```
+
+## Note
+Using a swap file could potentially result in an increase in writes & reads to your Raspberry Pi's SD card, possibly lowering the lifespan of the card. However in most cases Raspbian ships with a default swap file with a size of 100 MB and in this case we are simply increasing that to 1024 MB.
