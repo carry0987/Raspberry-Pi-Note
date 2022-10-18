@@ -18,6 +18,13 @@
     "hide-element"
   ],
   "pluginsConfig": {
+    "fontSettings": {
+      "theme": "night",
+      "family": "sans"
+    },
+    "theme-default": {
+      "showLevel": false
+    },
     "github": {
       "url": "https://github.com/carry0987/Raspberry-Pi-Note"
     },
