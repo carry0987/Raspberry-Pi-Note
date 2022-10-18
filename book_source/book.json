@@ -5,11 +5,56 @@
   "defaultDescription": "This is carry0987's Raspberry Pi Note, just storge some note or tips for Raspberry Pi",
   "language": "en",
   "plugins": [
-    "github", "-lunr", "-search", "search-plus", "page-toc-button"
+    "github",
+    "-lunr",
+    "-search",
+    "-sharing",
+    "search-plus",
+    "page-toc-button",
+    "anchor-navigation-ex",
+    "flexible-alerts",
+    "code",
+    "tbfed-pagefooter",
+    "hide-element"
   ],
   "pluginsConfig": {
     "github": {
       "url": "https://github.com/carry0987/Raspberry-Pi-Note"
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "associatedWithSummary": true,
+      "printLog": false,
+      "multipleH1": false,
+      "mode": "float",
+      "showGoTop":true,
+      "float": {
+        "floatIcon": "fa fa-navicon",
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      },
+      "pageTop": {
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      }
+    },
+    "flexible-alerts": {
+      "style": "flat"
+    },
+    "code": {
+      "copyButtons": true
+    },
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy carry0987",
+      "modify_label": "Last Modified : ",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "hide-element": {
+      "elements": [".gitbook-link"]
     }
   }
 }
