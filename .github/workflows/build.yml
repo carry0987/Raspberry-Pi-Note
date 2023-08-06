@@ -15,9 +15,15 @@ jobs:
       USER_NAME   : carry0987
       USER_EMAIL  : carry0987@users.noreply.github.com
       BOOK_DIR    : book_source
-
     steps:
     - name: Checkout 🛎️
-      uses: actions/checkout@v2.4.2
+      uses: actions/checkout@v3.5.3
+    - name: Cache builder dependencies
+      uses: actions/cache@v3.3.1
+      with:
+        path: ${BOOK_DIR}/node_modules
+        key: ${{runner.OS}}-book-deps-${{hashFiles('**/package-lock.json')}}
+        restore-keys: |
+          ${{runner.OS}}-book-deps-
     - name: Build and Deploy 🚀
       uses: carry0987/gitbook-publish-action@v1.0.0
