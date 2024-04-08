@@ -1,0 +1,652 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Add IMG To Berryboot · Raspberry Pi Note</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="carry0987">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-flexible-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="11.RPi3-Change-Berryboot-Default-System-By-SSH.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01.Regular-Command.html">
+            
+                <a href="01.Regular-Command.html">
+            
+                    
+                    Regular Command
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Set RPi
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="02.RPi3-Disable-Bluetooth-Or-WiFi-By-Default.html">
+            
+                <a href="02.RPi3-Disable-Bluetooth-Or-WiFi-By-Default.html">
+            
+                    
+                    RPi3 Disable Bluetooth Or WiFi By Default
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="03.RPi3-Turn-Off-HDMI.html">
+            
+                <a href="03.RPi3-Turn-Off-HDMI.html">
+            
+                    
+                    RPi3 Turn Off HDMI
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Internet
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="04.Set-TCP-BBR.html">
+            
+                <a href="04.Set-TCP-BBR.html">
+            
+                    
+                    BBR Congestion Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="05.RPi3-Switch-Off-IPV6.html">
+            
+                <a href="05.RPi3-Switch-Off-IPV6.html">
+            
+                    
+                    Switch Off IPV6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="06.RPi3-Auto-Reconnect-WiFi.html">
+            
+                <a href="06.RPi3-Auto-Reconnect-WiFi.html">
+            
+                    
+                    Auto Reconnect WiFi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="07.Internet-Speedtest.html">
+            
+                <a href="07.Internet-Speedtest.html">
+            
+                    
+                    Internet Speedtest
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="08.RPi3-Auto-Send-New-IP_Shell.html">
+            
+                <a href="08.RPi3-Auto-Send-New-IP_Shell.html">
+            
+                    
+                    Auto-Send-New-IP (Shell)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="09.RPi3-Auto-Send-New-IP_Python3.html">
+            
+                <a href="09.RPi3-Auto-Send-New-IP_Python3.html">
+            
+                    
+                    Auto-Send-New-IP (Python3)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    Berryboot
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.5.1" data-path="10.Add-IMG-To-Berryboot.html">
+            
+                <a href="10.Add-IMG-To-Berryboot.html">
+            
+                    
+                    Add IMG To Berryboot
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="11.RPi3-Change-Berryboot-Default-System-By-SSH.html">
+            
+                <a href="11.RPi3-Change-Berryboot-Default-System-By-SSH.html">
+            
+                    
+                    Change Berryboot Default System By SSH
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    Crontab
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="12.Crontab–Quick-Reference.html">
+            
+                <a href="12.Crontab–Quick-Reference.html">
+            
+                    
+                    Quick Reference
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="13.Disable-Cron-Pam-Unix-Session.html">
+            
+                <a href="13.Disable-Cron-Pam-Unix-Session.html">
+            
+                    
+                    Disable Cron Pam_Unix Session
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    Expect
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="14.Auto-Login-PTT.html">
+            
+                <a href="14.Auto-Login-PTT.html">
+            
+                    
+                    Auto Login PTT
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    Locale
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="15.Set-LC.html">
+            
+                <a href="15.Set-LC.html">
+            
+                    
+                    Set locale
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    Swap
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="Extend-Swap.html">
+            
+                <a href="Extend-Swap.html">
+            
+                    
+                    Extend Swap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" >
+            
+                <span>
+            
+                    
+                    HatH
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="Run-HatH-On-Portable-External-Hard-Drive.html">
+            
+                <a href="Run-HatH-On-Portable-External-Hard-Drive.html">
+            
+                    
+                    Run HatH On Portable External Hard Drive
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Add IMG To Berryboot</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#add-img-to-berryboot"><b></b>Add IMG To Berryboot</a></li><ul><li><span class="title-icon "></span><a href="#adding-your-own-custom-operating-systems-to-the-menu"><b></b>Adding your own custom operating systems to the menu</a></li><li><span class="title-icon "></span><a href="#notes"><b></b>Notes</a></li><li><span class="title-icon "></span><a href="#import-the-img-file-to-berryboot"><b></b>Import the img file to berryboot</a></li><li><span class="title-icon "></span><a href="#tweaks"><b></b>Tweaks</a></li></ul></ul></div><a href="#add-img-to-berryboot" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="add-img-to-berryboot"><a name="add-img-to-berryboot" class="anchor-navigation-ex-anchor" href="#add-img-to-berryboot"><i class="fa fa-link" aria-hidden="true"></i></a>Add IMG To Berryboot</h1>
+<h2 id="adding-your-own-custom-operating-systems-to-the-menu"><a name="adding-your-own-custom-operating-systems-to-the-menu" class="anchor-navigation-ex-anchor" href="#adding-your-own-custom-operating-systems-to-the-menu"><i class="fa fa-link" aria-hidden="true"></i></a>Adding your own custom operating systems to the menu</h2>
+<p>Most Raspberry Pi operating system images are disk images containing two partitions.
+A <strong>FAT</strong> partition with the boot loader and kernel files, and a second <strong>Ext4</strong> partition with everything else.
+We are interested in the second partition.</p>
+<p>With a regular Linux desktop computer that has <strong>kpartx</strong> and <strong>mksquashfs</strong> installed,
+you can convert the second partition to <strong>SquashFS</strong> like this:<br></p>
+<pre><code>$ sudo kpartx -av image_you_want_to_convert.img 
+    add map loop0p1 (252:5): 0 117187 linear /dev/loop0 1
+    add map loop0p2 (252:6): 0 3493888 linear /dev/loop0 118784
+$ sudo mount /dev/mapper/loop0p2 /mnt
+$ sudo sed -i &apos;s/^\/dev\/mmcblk/#\0/g&apos; /mnt/etc/fstab
+$ sudo sed -i &apos;s/^PARTUUID/#\0/g&apos; /mnt/etc/fstab
+$ sudo rm -f /mnt/etc/console-setup/cached_UTF-8_del.kmap.gz
+$ sudo rm -f /mnt/etc/systemd/system/multi-user.target.wants/apply_noobs_os_config.service
+$ sudo rm -f /mnt/etc/systemd/system/multi-user.target.wants/raspberrypi-net-mods.service
+$ sudo rm -f /mnt/etc/rc3.d/S01resize2fs_once
+$ sudo mksquashfs /mnt converted_image_for_berryboot.img -comp lzo -e lib/modules
+$ sudo umount /mnt
+$ sudo kpartx -d image_you_want_to_convert.img
+</code></pre><h2 id="notes"><a name="notes" class="anchor-navigation-ex-anchor" href="#notes"><i class="fa fa-link" aria-hidden="true"></i></a>Notes</h2>
+<ul>
+<li>If kpartx reports it created a mapping different than loop0p2 (e.g. loop4p2) mount that instead.
+This can happen if loop0 is already in use by something else on the system.</li>
+<li>We are excluding /lib/modules from the image, because the kernel modules shipped with Berryboot are used instead, and shared with all distributions.</li>
+<li>Some older versions of mksquashfs do not support the &#x201C;-comp lzo&#x201D; option.
+You can leave it out to let it use gzip compression instead.
+Advantage of LZO is that it is faster to uncompress, which is a big plus on slow ARM devices, and therefore preferred.
+This does come at a cost of reduced compression ratio (LZO images are larger than gzip ones).</li>
+</ul>
+<h2 id="import-the-img-file-to-berryboot"><a name="import-the-img-file-to-berryboot" class="anchor-navigation-ex-anchor" href="#import-the-img-file-to-berryboot"><i class="fa fa-link" aria-hidden="true"></i></a>Import the img file to berryboot</h2>
+<p>Put your SquashFS formatted image on a USB stick, go to the &#x201C;Operating system installer&#x201D;, hold down your mouse button over &#x201C;Add OS&#x201D; and select &#x201C;Install from USB stick&#x201D; If your image prefers to have a certain memory split use the extension .img128 .img192, .img224 or .img240 instead of .img.</p>
+<h2 id="tweaks"><a name="tweaks" class="anchor-navigation-ex-anchor" href="#tweaks"><i class="fa fa-link" aria-hidden="true"></i></a>Tweaks</h2>
+<p>If the image you are converting is based on Debian/Raspbian delete the <code>etc/console-setup/cached_UTF-8_del.kmap.gz</code> file before converting the image to force regeneration of the cached keyboard mapping on first boot. This is to make sure it uses the keyboard layout set in Berryboot instead of default British. </p>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; carry0987 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">Last Modified : 
+2024-04-08 11:07:13
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="11.RPi3-Change-Berryboot-Default-System-By-SSH.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Change Berryboot Default System By SSH">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Add IMG To Berryboot","level":"1.5.1","depth":2,"next":{"title":"Change Berryboot Default System By SSH","level":"1.5.2","depth":2,"path":"article/11.RPi3-Change-Berryboot-Default-System-By-SSH.md","ref":"./article/11.RPi3-Change-Berryboot-Default-System-By-SSH.md","articles":[]},"previous":{"title":"Berryboot","level":"1.5","depth":1,"ref":"","articles":[{"title":"Add IMG To Berryboot","level":"1.5.1","depth":2,"path":"article/10.Add-IMG-To-Berryboot.md","ref":"./article/10.Add-IMG-To-Berryboot.md","articles":[]},{"title":"Change Berryboot Default System By SSH","level":"1.5.2","depth":2,"path":"article/11.RPi3-Change-Berryboot-Default-System-By-SSH.md","ref":"./article/11.RPi3-Change-Berryboot-Default-System-By-SSH.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["github","-lunr","-search","-sharing","-page-toc-button","search-plus","anchor-navigation-ex","flexible-alerts","code","tbfed-pagefooter","hide-element"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy carry0987","modify_label":"Last Modified : ","modify_format":"YYYY-MM-DD HH:mm:ss"},"github":{"url":"https://github.com/carry0987/Raspberry-Pi-Note"},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{"theme":"night","family":"sans"},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":false,"pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"flat","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"}},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"search-plus":{}},"theme":"default","author":"carry0987","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Raspberry Pi Note","language":"en","gitbook":"*","defaultDescription":"This is carry0987's Raspberry Pi Note, just storge some note or tips for Raspberry Pi","description":"This is carry0987's Raspberry Pi Note, just storge some note or tips for Raspberry Pi"},"file":{"path":"article/10.Add-IMG-To-Berryboot.md","mtime":"2024-04-08T11:07:13.298Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-04-08T11:07:43.598Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-flexible-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
