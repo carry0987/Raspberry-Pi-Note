@@ -81,10 +81,10 @@ bash -c "$(curl https://raw.github.com/carry0987/Raspberry-Pi-Repo/master/HatH/s
 Or just follow the tutorial below
 
 1. Use ```cd /media/hd/hath``` to go to ```hath``` folder,
-then use ```sudo wget https://repo.e-hentai.org/hath/HentaiAtHome_1.6.0.zip``` to download the H@H
+then use ```sudo wget https://repo.e-hentai.org/hath/HentaiAtHome_1.6.2.zip``` to download the H@H
 ![](static/image/hath/img_20.jpg)
 
-2. Use ```sudo unzip HentaiAtHome_1.6.0.zip``` to unzip H@H files
+2. Use ```sudo unzip HentaiAtHome_1.6.2.zip``` to unzip H@H files
 ![](static/image/hath/img_21.jpg)
 
 3. Use ```screen``` to start terminal in background
